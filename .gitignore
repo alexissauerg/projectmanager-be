@@ -15,7 +15,7 @@ build/
 # IDE files
 .idea/
 *.iml
-vscode/
+.vscode/
 
 # OS generated files
 .DS_Store
