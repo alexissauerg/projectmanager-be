@@ -168,6 +168,3 @@ PUT    /api/tasks/{id}/status          - Update task status (workflow)
 - **Database Connection Issues**: Ensure PostgreSQL is running and the credentials in `application.properties` match your setup.
 - **Email Not Sending**: Verify SMTP settings and credentials. Check logs for errors.
 - **Token Issues**: Ensure `jwt.secret` is set to a long, secure string and tokens are included in the `Authorization` header as `Bearer <token>`.
-
-## Contributing
-Feel free to fork this project, submit pull requests, or report issues for any bugs or feature requests.
